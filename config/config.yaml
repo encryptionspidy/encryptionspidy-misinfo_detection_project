@@ -1,0 +1,14 @@
+groq:
+  model: "llama3-70b-8192"
+  temperature: 0.1
+virustotal:
+  url: "https://www.virustotal.com/api/v3/urls"
+  api_url: "https://www.virustotal.com/api/v3/urls"
+  default_assessment: "Safe"
+rag:
+  chunk_size: 1000
+  chunk_overlap: 200
+  embedding_model: "sentence-transformers/all-mpnet-base-v2" #or use hugging face for free embeddings , otherwise paid version open ai embbedings
+data_sources:
+  BBC": "http://feeds.bbci.co.uk/news/rss.xml"
+  NYTimes": "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml"

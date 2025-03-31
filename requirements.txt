@@ -1,0 +1,14 @@
+fastapi==0.110.1
+uvicorn==0.31.1
+python-dotenv==1.0.1
+requests==2.31.0
+pydantic
+fastapi-middleware==0.1.0
+langchain==0.2.0
+tiktoken
+faiss-cpu
+PyYAML==6.0.1
+beautifulsoup4==4.12.3
+langchain-community
+sentence-transformers
+feedparser
