@@ -1,0 +1,4 @@
+.env
+logs/api.log
+api/__pycache__
+data/rag_data/
